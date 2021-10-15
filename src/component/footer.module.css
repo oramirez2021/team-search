@@ -1,0 +1,9 @@
+.header{
+    font-size: 5em;
+    color: orange;
+    border-bottom: 1px solid blue;
+    margin-bottom: 20px;
+}
+.subtitle{
+    color:orange;
+}
