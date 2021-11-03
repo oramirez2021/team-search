@@ -1,0 +1,13 @@
+export default function Header(props){
+    const type = (props.type)? `is-${props.type}` : 'is-success';
+    return (
+        <div className = "container">
+            <section className = {`hero ${type}`}>
+                <div className = "hero-body">
+                <p className = "title">{props.title}</p>
+                <p className = "subtitle">{props.subtitle}</p>
+                </div>
+            </section>
+        </div>
+    );
+}
